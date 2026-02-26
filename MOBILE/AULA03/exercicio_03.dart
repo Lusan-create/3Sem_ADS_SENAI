@@ -17,10 +17,10 @@ double calculaSalario(double salario){
   return salarioFinal; 
 }
 
-main(){
+void main(){
   double salario = entradaDouble("Escreva o salário do colaborador: ");
 
   salario = calculaSalario(salario);
-  
+
   print("O salário do colaborador após descontos: $salario");
 }
